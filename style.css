@@ -1,24 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap");
 .gird-container {
   display: grid;
   grid-template-rows: 30vh 30vh;
 
   grid-template-columns: repeat(5, 1fr);
-  grid-gap: 1em;
+
+  grid-row: 5px;
   justify-items: center;
   text-align: center;
   align-items: stretch;
 }
+#div1 {
+  margin-left: 200px;
+  margin-right: 5px;
+}
+#div5 {
+  margin-left: 2px;
+  margin-right: 200px;
+}
+#div3 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#fontdiv {
+  font-weight: 300;
+  font-size: 2em;
+}
+#mainscore {
+  font-weight: 400;
+  font-size: 2.5em;
+}
 
-.gird-container>div {
+.gird-container > div {
   background-color: white;
   justify-items: center;
   color: black;
   border: 1px solid lightgray;
   border-radius: 10px;
-
 }
 
-.gird-container>div:nth-child(3) {
+.gird-container > div:nth-child(3) {
   border: 0px;
 }
 
@@ -26,7 +47,8 @@ fontdiv {
   font-size: 1.3em;
 }
 
-#div {}
+#div {
+}
 
 .footer {
   margin-top: 460px;
